@@ -1,0 +1,17 @@
+package day2;
+import java.util.Scanner;
+public class StringInputUsingScanner {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);   //ctrl + shitt + O (Orange)
+		
+		System.out.println("Please enter your name");
+		//String name=sc.next();  //entire string
+		char ch=sc.next().charAt(0);
+		
+		System.out.println(ch);
+		sc.close();
+	}
+
+}
